@@ -1,0 +1,19 @@
+{
+  "name": "aws-lambda-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test/test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Jaspreet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "async-redis": "^1.1.7",
+    "mongoose": "^5.8.4"
+  }
+}
