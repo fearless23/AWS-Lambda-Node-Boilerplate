@@ -23,6 +23,7 @@ exports.redisConn = async function() {
   try {
     const conn = await newConn$();
     client = conn;
+    return client;
   } catch (error) {
     // Send Actual err to logger... or CloudWatch By Using console.error
     throw [500, "R500", false, "Something happen wrong!"];
